@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'tahoma', "Arial";
+    background-image: url(gato.jpg)
+}
+header{
+    background: #c910d6;
+    padding: 0.3em 0;
+    display: flex;
+    
+}
+.logotipo{
+    width: 10em;
+    margin-left: 2em;
+}
+h2{
+    font-size: 5em;
+    text-align: center;
+    color: black;
+    background: beige;
+    width:10em;
+    border-radius: 0em 2em 2em 0em;
+    box-shadow: 3px 3px 5px 0px rgb(112, 83, 38);
+
+}
+table{
+    table-layout: fixed;
+    text-align: center;
+    padding: 1em;
+  
+   
+}
+
+th, td {
+    
+    padding: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    box-shadow: 3px 3px 5px 0px rgb(112, 83, 38);
+}
+
+.linha1{
+    background: rgb(208, 203, 203);
+   
+}
+.tabela{
+  margin: auto;
+    padding: 3em;
+    background: white;
+    width: 45em;
+    height: 17em;
+    border-radius:  2em;
+    box-shadow: 3px 3px 5px 0px rgb(112, 83, 38);
+}
