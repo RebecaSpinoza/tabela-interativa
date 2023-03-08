@@ -18,39 +18,58 @@ header{
 h2{
     font-size: 5em;
     text-align: center;
-    color: black;
-    background: beige;
-    width:10em;
-    border-radius: 0em 2em 2em 0em;
-    box-shadow: 3px 3px 5px 0px rgb(112, 83, 38);
+    color: #e179e5;
+    text-shadow: #241124 0em 0.1em 0.03em;
 
 }
 table{
     table-layout: fixed;
     text-align: center;
-    padding: 1em;
+   
+    background: beige;
+    box-shadow: 3px 3px 5px 0px rgb(112, 83, 38);
   
    
 }
 
 th, td {
     
-    padding: 15px;
+    padding: 40px;
     text-align: center;
     vertical-align: bottom;
-    box-shadow: 3px 3px 5px 0px rgb(112, 83, 38);
+    box-shadow: 3px 3px 0.5px 0px #241124;
 }
 
 .linha1{
-    background: rgb(208, 203, 203);
+    background: bl;
    
 }
 .tabela{
-  margin: auto;
-    padding: 3em;
-    background: white;
-    width: 45em;
-    height: 17em;
-    border-radius:  2em;
-    box-shadow: 3px 3px 5px 0px rgb(112, 83, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.erro{
+    color: white;
+    background-color: rgb(255, 80, 80)!important;
+    
+}
+.encomendas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-input{
+    font-size: 15px;
+    text-align: center;
+    width: 35em;
+    height: 4em;
+    margin: 2em;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0px #241124;
+    background-color: beige;
+    color: black;
 }

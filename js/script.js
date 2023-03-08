@@ -1,5 +1,4 @@
 var titulo = document.querySelector(".titulo");
-var titulo = document.querySelector(".titulo");
 titulo.textContent = "Lista de Encomendas";
 
 var clientes = document.querySelectorAll(".cliente");
@@ -22,18 +21,19 @@ if (!isNaN(qtde) && !isNaN(valor)){
     clientes[i].querySelector(".qtde").textContent = "Qtde invalida";
     clientes[i].querySelector(".valor").textContent = "Valor invalido";
     console.log("A quantidade e o valor unitário inseridos pelo cliente "+clientes[i].querySelector(".nome").textContent+" é invalida");
-    
+    clientes[i].classList.add("erro");;
     
 }else if (isNaN(qtde)){
     //trata o erro caso a quantidade esteja errada
     clientes[i].querySelector(".qtde").textContent = "Qtde invalida";
     console.log("A quantidade inserida pelo cliente "+clientes[i].querySelector(".nome").textContent+" é invalida");
+    clientes[i].classList.add("erro");
 
 }else if (isNaN(valor)){
     //trata o erro caso o valor unitário esteja errado 
     clientes[i].querySelector(".valor").textContent = "Valor invalido";
     console.log("O valor unitário inserido pelo cliente "+clientes[i].querySelector(".nome").textContent+" é invalida");
-    
+    clientes[i].classList.add("erro");
 }
 }
 

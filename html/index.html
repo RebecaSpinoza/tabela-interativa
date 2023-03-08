@@ -31,7 +31,7 @@
 
         <tr class="cliente">
             <td class="nome">Margarete</td>
-            <td>Jogo Americano (4 peças)-Rosa</td>
+            <td class="item">Jogo Americano (4 peças)-Rosa</td>
             <td class="qtde">1</td>
             <td class="valor">30</td>
             <td class="total">0</td>
@@ -40,15 +40,15 @@
 
         <tr class="cliente">
             <td class="nome">Cleide</td>
-            <td>Tapetes Cozinha (3 peças) - Azul</td>
-            <td class="qtde">2</td>
-            <td class="valor">50</td>
+            <td class="item">Tapetes Cozinha (3 peças) - Azul</td>
+            <td class="qtde">c</td>
+            <td class="valor">30</td>
             <td class="total">0</td>
         </tr>
         
         <tr class="cliente">
             <td class="nome">Angelo</td>
-            <td>Pulseira Cristal Colorida</td>
+            <td class="item">Pulseira Cristal Colorida</td>
             <td class="qtde">3</td>
             <td class="valor">25</td>
             <td class="total">0</td>
@@ -57,7 +57,7 @@
 
         <tr class="cliente">
             <td class="nome">Angelo</td>
-            <td>Pulseira Cristal Vermelha</td>
+            <td class="item">Pulseira Cristal Vermelha</td>
             <td class="qtde">20</td>
             <td class="valor">5</td>
             <td class="total">0</td>
@@ -65,6 +65,30 @@
         </tr>
     </table>
 
+</div>
+<h2>Adiconar nova encomenda</h2>
+<div class="encomendas">
+    
+    <form action="submit">
+        <input type="text" placeholder="Nome do cliente" id="nomeCliente" class="form-input">
+        <input type="text" placeholder="Quantidade de itens" id="qauntItens" class="form-input">
+        <select id="itens" class="form-input">
+            <option>Selecione o Item</option>
+            <option value="1">Jogo Americano (4 peças) - Rosa</option>
+            <option value="2">Jogo Americano (4 peças) - Amarelo</option>
+            <option value="3">Jogo Americano (4 peças) - Verde</option>
+            <option value="4">Jogo Americano (3 peças) - Azul</option>
+            <option value="5">Jogo Americano (3 peças) - Rosa</option>
+            <option value="6">Jogo Americano (3 peças) - Amarelo</option>
+            <option value="7">Jogo Americano (3 peças) - Vermelho</option>
+            <option value="8">Pulseira Cristal - Colorida</option>
+            <option value="9">Pulseira Cristal - Vermelha</option>
+            <option value="10">Pulseira Cristal - Rosa</option>
+            <option value="11">Pulseira Cristal - Lilas</option>
+            <option value="12">Pulseira Cristal - Preta</option>
+        </select>
+        <input type="text" placeholder="Valor dos itens" id="valorItens" class="form-input">
+    </form>
 </div>
 </body>
 <script src="../js/script.js"></script>
