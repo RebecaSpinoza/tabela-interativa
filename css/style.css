@@ -58,14 +58,15 @@ th, td {
 .encomendas{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
 }
 .form-input{
     font-size: 15px;
     text-align: center;
     width: 35em;
     height: 4em;
-    margin: 2em;
+    margin: 1.5em;
     border: none;
     outline: none;
     border-radius: 10px;
@@ -73,3 +74,29 @@ th, td {
     background-color: beige;
     color: black;
 }
+
+.enviar_encomendas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bot_enviar{
+    text-align: center;
+    font-size: 20px;
+    width: 15em;
+    height: 4em;
+    margin: 1.5em;
+    border: none;
+    border-radius: 10px;
+    background-color: #c910d6;
+    color: white;
+    
+    box-shadow: 3px 3px 5px 0px #241124;
+}
+.bot_enviar:hover{
+    color: black;
+    background-color: #e179e5;
+    
+}
+
