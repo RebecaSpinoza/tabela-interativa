@@ -18,8 +18,8 @@
     </div>
 </header>
 <h2 class="titulo">Encomendas</h2>
-<div class="tabela">
-    <table >
+<div class="tabela" >
+    <table id="tabola">
         <tr>
             <td>Nome</td>
             <td>Produto</td>
@@ -40,7 +40,7 @@
         <tr class="cliente">
             <td class="nome">Cleide</td>
             <td class="item">Tapetes Cozinha (3 peças) - Azul</td>
-            <td class="qtde">c</td>
+            <td class="qtde">3</td>
             <td class="valor">30</td>
             <td class="total">0</td>
         </tr>
@@ -70,21 +70,21 @@
     
     <form action="submit">
         <input type="text" placeholder="Nome do cliente" id="nomeCliente" class="form-input">
-        <input type="text" placeholder="Quantidade de itens" id="qauntItens" class="form-input">
+        <input type="text" placeholder="Quantidade de itens" id="quantItens" class="form-input">
         <select id="itens" class="form-input">
             <option>Selecione o Item</option>
-            <option value="1">Jogo Americano (4 peças) - Rosa</option>
-            <option value="2">Jogo Americano (4 peças) - Amarelo</option>
-            <option value="3">Jogo Americano (4 peças) - Verde</option>
-            <option value="4">Jogo Americano (3 peças) - Azul</option>
-            <option value="5">Jogo Americano (3 peças) - Rosa</option>
-            <option value="6">Jogo Americano (3 peças) - Amarelo</option>
-            <option value="7">Jogo Americano (3 peças) - Vermelho</option>
-            <option value="8">Pulseira Cristal - Colorida</option>
-            <option value="9">Pulseira Cristal - Vermelha</option>
-            <option value="10">Pulseira Cristal - Rosa</option>
-            <option value="11">Pulseira Cristal - Lilas</option>
-            <option value="12">Pulseira Cristal - Preta</option>
+            <option >Jogo Americano (4 peças) - Rosa</option>
+            <option >Jogo Americano (4 peças) - Amarelo</option>
+            <option >Jogo Americano (4 peças) - Verde</option>
+            <option >Jogo Americano (3 peças) - Azul</option>
+            <option >Jogo Americano (3 peças) - Rosa</option>
+            <option >Jogo Americano (3 peças) - Amarelo</option>
+            <option >Jogo Americano (3 peças) - Vermelho</option>
+            <option >Pulseira Cristal - Colorida</option>
+            <option >Pulseira Cristal - Vermelha</option>
+            <option >Pulseira Cristal - Rosa</option>
+            <option >Pulseira Cristal - Lilas</option>
+            <option >Pulseira Cristal - Preta</option>
         </select>
         <input type="text" placeholder="Valor dos itens" id="valorItens" class="form-input">
 
@@ -98,5 +98,6 @@
 
 
 </body>
-<script src="../js/script.js"></script>
+<script src="../js/calcula-total.js"></script>
+<script src="../js/form.js"></script>
 </html>

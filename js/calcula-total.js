@@ -35,30 +35,6 @@ if (!isNaN(qtde) && !isNaN(valor)){
     console.log("O valor unitário inserido pelo cliente "+clientes[i].querySelector(".nome").textContent+" é invalida");
     clientes[i].classList.add("erro");
 }
-}
+} 
 
-// var valorFormat = parseFloat(valor);
-// clientes[i].querySelector('.valor').textContent = valorFormat.toLocaleString("pt-BR",{style:'currency', currency: 'BRL'});
-
-/*Eventos*************************************************************
-*********************************************************************/
-
-// titulo.addEventListener("clik",mensagem)
-
-// //função nomeada
-// function mensagem(){
-//     console.log("O titulo foi clicado")
-// }
-
-//função anônima
-titulo.addEventListener("click", function(){
-    console.log("função anonima - O titulo foi clicado")
-})
-
-var botaoAdicionar = document.querySelector("#adicionar-encomenda");
-
-botaoAdicionar.addEventListener("click", function(event){
-    event.preventDefault();
-    console.log("botão foi clicado");
-})
    
